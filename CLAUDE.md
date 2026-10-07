@@ -17,8 +17,8 @@ Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée
 - Thème : **sombre par défaut** pour tout le monde, bouton pour passer en clair, choix du visiteur retenu, sans flash au chargement
 - Réservation : widget Calendly intégré (lien à fournir par moi)
 - Formulaire de contact : validation côté serveur (zod), honeypot anti-spam, limitation de débit, envoi par un service d'e-mail à choisir ensemble. Aucune clé en dur dans le code.
-- Hébergement : Hostinger (offre à préciser : Node.js seulement sur Business et Cloud)
-- Domaine : `flaura-dev.com`, adresse de contact `hello@flaura-dev.com` (Hostinger)
+- Hébergement : Hostinger, offre Business Web Hosting (web app Node.js, déploiement depuis GitHub)
+- Domaine : https://flaura-dev.com/, adresse de contact `hello@flaura-dev.com` (Hostinger, redirigée vers Gmail)
 - Dépôt : https://github.com/Flaura-98/flaura-dev.com
 
 ## Référence visuelle
