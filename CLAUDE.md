@@ -23,7 +23,7 @@ Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée
 
 ## Référence visuelle
 
-`maquette/maquette-yozakura.html` est la maquette validée. C'est un fichier d'un outil de maquettage : la syntaxe `<x-dc>`, `{{...}}`, `<sc-for>`, `<sc-if>` et la classe `Component extends DCLogic` ne sont PAS à réutiliser. Sers-t'en uniquement comme référence pour la structure, les textes exacts, les espacements, les tailles et les couleurs, et reconstruis tout proprement en composants React.
+`maquette/maquette-yozakura.html` est la maquette validée (fichier local, volontairement hors du dépôt Git car il contient des coordonnées personnelles). C'est un fichier d'un outil de maquettage : la syntaxe `<x-dc>`, `{{...}}`, `<sc-for>`, `<sc-if>` et la classe `Component extends DCLogic` ne sont PAS à réutiliser. Sers-t'en uniquement comme référence pour la structure, les textes exacts, les espacements, les tailles et les couleurs, et reconstruis tout proprement en composants React.
 
 ## Charte
 

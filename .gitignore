@@ -45,3 +45,6 @@ next-env.d.ts
 
 # réglages locaux de Claude Code
 .claude/settings.local.json
+
+# maquette de référence : gardée en local, hors dépôt (contient des coordonnées personnelles)
+/maquette/
