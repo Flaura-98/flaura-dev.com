@@ -13,7 +13,7 @@ Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée
 
 - Next.js 16 (App Router) + TypeScript, npm
 - Tailwind CSS 4
-- Polices via `next/font/google` : Big Shoulders (police variable, axe `opsz` fixé à 72 = l'ancienne « Display »), Geist, Geist Mono, Abril Fatface (guillemets du témoignage uniquement)
+- Polices via `next/font/google` : Big Shoulders (police variable, axe `opsz` fixé à 72 = l'ancienne « Display »), Geist, Geist Mono. Le guillemet du témoignage est le glyphe d’Abril Fatface vectorisé en SVG (la police n’est pas chargée)
 - Thème : **sombre par défaut** pour tout le monde, bouton pour passer en clair, choix du visiteur retenu, sans flash au chargement
 - Réservation : widget Calendly intégré (lien à fournir par moi)
 - Formulaire de contact : validation côté serveur (zod), honeypot anti-spam, limitation de débit, envoi par un service d'e-mail à choisir ensemble. Aucune clé en dur dans le code.
