@@ -45,7 +45,7 @@ Le rose est plus foncé en clair pour garder un contraste lisible. Le texte des 
 
 Typo : titres de section en Big Shoulders Display 900, capitales, 110 px sur desktop (72 px mobile), numéro de section en Geist Mono rose à gauche, aligné en bas. Texte courant en Geist. Étiquettes, filtres, petites mentions en Geist Mono.
 
-Interdits : aucun caractère japonais (kanji, kana) nulle part, pas de pétales décoratifs (seule exception, demandée le 7 octobre 2026 : une chute discrète de pétales en arrière-plan, désactivable par le visiteur et coupée si l'animation est réduite), pas de bandeau défilant. Le site vouvoie le visiteur partout.
+Interdits : aucun caractère japonais (kanji, kana) nulle part, pas de pétales décoratifs (seule exception, demandée le 7 octobre 2026 : une chute discrète de pétales en arrière-plan, désactivable par le visiteur et coupée si l'animation est réduite), pas de bandeau défilant. Le site tutoie le visiteur partout (choix du 7 octobre 2026, à la place du vouvoiement).
 
 ## Structure de la page
 
