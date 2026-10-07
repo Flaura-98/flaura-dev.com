@@ -49,16 +49,16 @@ Interdits : aucun caractère japonais (kanji, kana) nulle part, pas de pétales 
 
 ## Structure de la page
 
-1. Barre de navigation : fleur sakura + « FLAURA » (Big Shoulders) + « .dev_ » (Geist Mono rose), aligné sur le bord gauche du contenu. Au survol, la fleur fait un tour complet une seule fois. Menu en pilule au centre. À droite : bouton thème (soleil/lune) puis « Réserver un appel ».
+1. Barre de navigation : fleur sakura + « FLAURA » (Big Shoulders) + « .dev_ » (Geist Mono rose), aligné sur le bord gauche du contenu. Au survol, la fleur fait un tour complet une seule fois. Menu en pilule au centre, avec une bulle rose translucide posée sur la section en cours qui suit le lien survolé. À droite : bouton thème (soleil/lune) puis « Réserver un appel » avec une icône téléphone (même icône sur le bouton de l'accueil et du menu mobile).
 2. Accueil : « FLAURA.dev_ » géant, photo détourée devant avec halo rose et fondu vers le bas, accroche « Créative dans le design. Rigoureuse dans le code. », bouton Réserver un appel, carte « disponible » à droite (point vert qui clignote lentement).
-3. Comment on travaille ensemble : 4 étapes (On en parle, Je conçois, Je développe, On met en ligne).
+3. Comment on travaille ensemble : 4 étapes (On en parle, Je conçois, Je développe, On met en ligne), cliquables. L'étape choisie est mise en avant, les autres passent en retrait (toujours lisibles), et la ligne de progression se remplit jusqu'à l'étape choisie.
 4. 01 Hello World : bento avec photo devant l'ordi (effet bichromie rose/nuit), présentation, « Var, France », parcours (dessinatrice-projeteuse → chargée d'études → cheffe de projets → développeuse web).
 5. 02 Projets : 3 cartes projets, sans filtres sur l'accueil. La carte de Léa Grondin contient un comparateur avant/après glissable. Les étiquettes parlent du type de site, jamais de la techno. Bandeau rose pleine largeur « Le vôtre ? ». Le bouton « voir tous les projets » n'apparaît qu'au-delà de 6 projets. Témoignage en dessous. La flèche de chaque carte mène à une page `/projets` qui regroupe tous les projets ; cette page n'est pas dans le menu, on y accède uniquement par ces boutons. C'est sur `/projets` que se trouvent les filtres (tous, création, refonte, site vitrine, application web), avec leur état dans l'URL (`/projets?type=refonte`) et un bouton pour copier le lien.
 6. 03 Offres : Création de site, Refonte, Suivi et maintenance (tarifs à compléter).
 7. 04 FAQ : 5 questions en accordéon.
-8. 05 Parlons-en : bloc Calendly à gauche (2/3), formulaire à droite (nom, e-mail, type de projet, message, bouton pleine largeur) + lien LinkedIn.
+8. 05 Parlons-en : bloc Calendly à gauche (2/3), formulaire à droite (nom et prénom, e-mail, type de projet, message, bouton pleine largeur) + lien LinkedIn. Appel découverte : 30 minutes, en visio uniquement (lien envoyé à la prise de rendez-vous).
 9. Footer : logo long avec slogan, accroche, disponibilité, navigation, contact, réseaux, mentions légales, confidentialité, retour en haut.
-10. Fil conducteur à droite (tracing beam) : ligne qui se remplit en rose au scroll avec un point lumineux au bout, un repère par section qui s'allume, et une étiquette verticale qui affiche la section en cours (« 02 — Projets »). Masqué sur mobile.
+10. Fil conducteur à droite : il remplace la barre de défilement native (masquée sur desktop, conservée sur mobile). Fixé sur toute la hauteur de l'écran, le point lumineux est à X % du rail quand on est à X % de la page ; on peut le glisser, cliquer sur le rail pour y sauter, ou cliquer sur le repère numéroté d'une section. Pendant le défilement, une étiquette « 02 — Projets » accompagne le point. Masqué sur mobile.
 
 Toutes les animations respectent `prefers-reduced-motion`.
 
