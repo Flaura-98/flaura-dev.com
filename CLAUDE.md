@@ -71,7 +71,7 @@ Toutes les animations respectent `prefers-reduced-motion`.
 
 ## Contenu à compléter (ne rien inventer)
 
-Tout ce qui est entre crochets dans la maquette reste à fournir : tarifs, durée de l'appel découverte, lien Calendly, adresse e-mail, SIRET, lien GitHub, témoignage de Léa, problème et résultat de chaque projet, captures avant/après du site de Léa, visuels des projets. Tant que ce n'est pas fourni, garde un emplacement visible, n'invente ni chiffre ni avis client.
+Tout ce qui est entre crochets dans la maquette reste à fournir : tarifs, durée de l'appel découverte, lien Calendly, adresse e-mail, SIRET, lien GitHub, témoignage de Léa, problème et résultat de chaque projet, visuel du projet Ailleurs. Les captures (1440 × 900, double résolution, dans `assets/projects/`) sont affichées dans un cadre navigateur commun (`BrowserFrame`) ; la capture « après » de Léa est provisoire, à refaire une fois son nouveau site terminé. Tant que ce n'est pas fourni, garde un emplacement visible, n'invente ni chiffre ni avis client.
 
 ## SEO / accessibilité
 
