@@ -1,6 +1,6 @@
 # Portfolio Flaura.dev
 
-Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée dans le Var et en remote partout en France. Le site doit donner envie aux TPE, indépendants et petites entreprises de réserver un appel. Direction artistique validée : « Yozakura », sombre par défaut avec un mode clair.
+Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée dans le Var et en remote partout en France. Le site doit donner envie aux TPE, indépendants et petites entreprises de réserver un appel. Direction artistique validée : « Yozakura », en sombre et en clair : chaque visiteur a celui de son système et peut changer.
 
 ## Comment travailler avec moi
 
@@ -14,7 +14,7 @@ Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée
 - Next.js 16 (App Router) + TypeScript, npm
 - Tailwind CSS 4
 - Polices via `next/font/google` : Big Shoulders (police variable, axe `opsz` fixé à 72 = l'ancienne « Display »), Geist, Geist Mono. Le guillemet du témoignage est le glyphe d’Abril Fatface vectorisé en SVG (la police n’est pas chargée)
-- Thème : **sombre par défaut** pour tout le monde, bouton pour passer en clair, choix du visiteur retenu, sans flash au chargement
+- Thème : **suit le réglage clair/sombre du système du visiteur** (choix du 14 octobre 2026, à la place du sombre imposé à tous), bouton pour passer à l’autre, choix retenu (revenir au thème du système efface l’exception), sans flash au chargement. Sans JavaScript : sombre. Les deux thèmes reçoivent le même soin.
 - Réservation : widget Calendly intégré (lien à fournir par moi)
 - Formulaire de contact : validation côté serveur (zod), honeypot anti-spam, limitation de débit, envoi par un service d'e-mail à choisir ensemble. Aucune clé en dur dans le code.
 - Hébergement : Hostinger, offre Business Web Hosting (web app Node.js, déploiement depuis GitHub)
@@ -34,6 +34,7 @@ Couleurs (variables CSS, une palette par thème) :
 | fond | #0E0C11 | #F7F2EE |
 | surface (cartes) | #17141B | #FFFFFF |
 | bordures | #2A2530 | #E7DDD9 |
+| contour des champs de formulaire (3:1) | #6E6672 | #8A808C |
 | texte | #F3EDF0 | #1B1720 |
 | texte secondaire | #A79FAA | #625A68 |
 | texte discret | #5C5560 | #A0959F |
@@ -50,7 +51,7 @@ Interdits : aucun caractère japonais (kanji, kana) nulle part, pas de pétales 
 ## Structure de la page
 
 1. Barre de navigation : fleur sakura + « FLAURA » (Big Shoulders) + « .dev_ » (Geist Mono rose), aligné sur le bord gauche du contenu. Au survol, la fleur fait un tour complet une seule fois. Menu en pilule au centre, avec une bulle rose translucide posée sur la section en cours qui suit le lien survolé. À droite : bouton thème (soleil/lune) puis « Réserver un appel » avec une icône téléphone (même icône sur le bouton de l'accueil et du menu mobile).
-2. Accueil : « FLAURA.dev_ » géant, photo détourée devant avec halo rose et fondu vers le bas, accroche « Créative dans le design. Rigoureuse dans le code. », bouton Réserver un appel, carte « disponible » à droite (point vert qui clignote lentement).
+2. Accueil : « FLAURA.dev_ » géant, photo détourée devant avec halo rose et fondu vers le bas, accroche « Tes clients doivent pouvoir te trouver, ton site doit leur donner envie de te choisir. » (l’ancien slogan « Créative dans le design… » est abandonné depuis le 14 octobre 2026), bouton Réserver un appel, carte « disponible » à droite (point vert qui clignote lentement).
 3. Comment on travaille ensemble : 4 étapes (On en parle, Je conçois, Je développe, On met en ligne), cliquables. Sans interaction, la frise avance seule (5 s par étape, en boucle) ; elle s'arrête uniquement avec le bouton pause ou dès qu'on clique sur une étape (pas de pause au survol). L'étape choisie est mise en avant, les autres passent en retrait (toujours lisibles), et la ligne de progression se remplit jusqu'à l'étape choisie.
 4. 01 Hello World : bento avec photo devant l'ordi (effet bichromie rose/nuit), présentation, « Var, France », parcours (dessinatrice-projeteuse → chargée d'études → cheffe de projets → développeuse web).
 5. 02 Projets : 3 cartes projets, sans filtres sur l'accueil. La carte de Léa Grondin contient un comparateur avant/après glissable. Les étiquettes parlent du type de site, jamais de la techno. Bandeau rose pleine largeur « Le vôtre ? ». Un petit bouton « voir tous les projets », discret et toujours visible, est placé en bas à droite du titre « Projets » et mène à la page /projets. Témoignage en dessous. Les cartes n'ont pas de flèche vers `/projets` (doublon avec le bouton) ; quand un projet a un site en ligne, un lien ↗ vers ce site apparaît sur sa carte. La page `/projets` regroupe tous les projets ; elle n'est pas dans le menu, on y accède par le bouton « voir tous les projets ». C'est sur `/projets` que se trouvent les filtres (tous, création, refonte, site vitrine, application web), avec leur état dans l'URL (`/projets?type=refonte`) et un bouton pour copier le lien.
@@ -60,7 +61,7 @@ Interdits : aucun caractère japonais (kanji, kana) nulle part, pas de pétales 
 9. Footer : logo long avec slogan, accroche, disponibilité, navigation, contact, réseaux, mentions légales, confidentialité, interrupteur des pétales, retour en haut.
 10. Fil conducteur à droite : il remplace la barre de défilement native (masquée sur desktop, conservée sur mobile). Fixé sur toute la hauteur de l'écran, le point lumineux est à X % du rail quand on est à X % de la page ; on peut le glisser, cliquer sur le rail pour y sauter, ou cliquer sur le repère numéroté d'une section. Pendant le défilement, une étiquette « 02 — Projets » accompagne le point. Masqué sur mobile.
 
-Toutes les animations respectent `prefers-reduced-motion`.
+Toutes les animations respectent `prefers-reduced-motion`. Tout ce qui se touche réagit dès l’appui (utilitaires `press` et `press-text` de `globals.css`, à la place de `transition-colors`). Contraste élevé et transparence réduite sont pris en charge (palette renforcée, variante `opaque:`). Tailles de texte en rem, pour suivre la taille de police choisie par le visiteur.
 
 ## Assets
 
