@@ -31,18 +31,18 @@ Couleurs (variables CSS, une palette par thème) :
 
 | Rôle | Sombre | Clair |
 |---|---|---|
-| fond | #0E0C11 | #F7F2EE |
-| surface (cartes) | #17141B | #FFFFFF |
-| bordures | #2A2530 | #E7DDD9 |
-| contour des champs de formulaire (3:1) | #6E6672 | #8A808C |
+| fond | #0D0817 | #F7F2EE |
+| surface (cartes) | #160F21 | #FFFFFF |
+| bordures | #282036 | #E7DDD9 |
+| contour des champs de formulaire (3:1) | #746D83 | #8A808C |
 | texte | #F3EDF0 | #1B1720 |
-| texte secondaire | #A79FAA | #625A68 |
-| texte discret | #5C5560 | #A0959F |
+| texte secondaire | #ADA8B9 | #625A68 |
+| texte discret | #5F586F | #A0959F |
 | rose accent | #F07FA2 | #C2386B |
 | rose survol | #FFB3C8 | #9E2552 |
 | vert « disponible » | #6BD49A | #6BD49A |
 
-Le rose est plus foncé en clair pour garder un contraste lisible. Le texte des boutons roses utilise la couleur de fond.
+Le fond sombre est le « violet abysse » (choix du 18 octobre 2026, à la place du noir #0E0C11 de la maquette) : aussi profond que l’ancien noir, mais nettement violet ; toute la palette sombre a été déclinée dans cette teinte. Le rose est plus foncé en clair pour garder un contraste lisible. Le texte des boutons roses utilise la couleur de fond.
 
 Typo : titres de section en Big Shoulders Display 900, capitales, 110 px sur desktop (72 px mobile), numéro de section en Geist Mono rose à gauche, aligné en bas. Texte courant en Geist. Étiquettes, filtres, petites mentions en Geist Mono.
 
