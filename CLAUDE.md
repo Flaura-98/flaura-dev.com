@@ -65,7 +65,7 @@ Toutes les animations respectent `prefers-reduced-motion`. Tout ce qui se touche
 
 ## Assets
 
-- `assets/logos/` : logo long sans slogan (nav si besoin) et avec slogan (footer), en blanc pour le thème sombre et en noir pour le clair, plus la fleur `sakura-accueil.webp`. Version en place : **logo v3** (« FLAURA » en Big Shoulders, « .dev_ » et slogan en Geist Mono rose), tirée des PNG de `D:\Flaura.dev\0_D.A Flaura.dev\Logo v3 (polices du site)\` (bords rognés, 1600 px de large).
+- `assets/logos/` : logo long avec slogan (footer), en blanc pour le thème sombre et en noir pour le clair, plus la fleur `sakura-accueil.webp`. Les versions sans slogan, inutilisées, ont été retirées du dépôt le 20 octobre 2026 (récupérables dans l'historique Git). Version en place : **logo v3** (« FLAURA » en Big Shoulders, « .dev_ » et slogan en Geist Mono rose), tirée des PNG de `D:\Flaura.dev\0_D.A Flaura.dev\Logo v3 (polices du site)\` (bords rognés, 1600 px de large).
 - Favicons (`app/favicon.ico`, `app/icon.png`, `app/apple-icon.png`) : « favicon abysse » v3, du même dossier. Le `favicon.ico` (16, 32, 48 px) prend la variante « petit » (fleur seule, lisible en tout petit) ; `icon.png` (192 px) et `apple-icon.png` (180 px) gardent les circuits.
 - `assets/photos/` : `laura-hero-detouree.webp` (accueil, déjà détourée et fondue), `laura-ordi.jpg` (bento), `laura-portrait-bleu.jpg` (avatar du bloc Calendly).
 - Les SVG d'origine dans `0_D.A Flaura.dev` sont des exports Canva très lourds (jusqu'à 12 Mo) : ne pas les utiliser tels quels sur le site.
