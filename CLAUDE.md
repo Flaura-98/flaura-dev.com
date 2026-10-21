@@ -19,7 +19,7 @@ Site vitrine one-page de Laura, développeuse web freelance (Flaura.dev), basée
 - Formulaire de contact : validation côté serveur (zod), honeypot anti-spam, limitation de débit, envoi par un service d'e-mail à choisir ensemble. Aucune clé en dur dans le code.
 - Hébergement : Hostinger, offre Business Web Hosting (web app Node.js, déploiement depuis GitHub)
 - Domaine : https://flaura-dev.com/, adresse de contact `hello@flaura-dev.com` (Hostinger, redirigée vers Gmail)
-- Dépôt : https://github.com/Flaura-98/flaura-dev.com
+- Dépôt : https://github.com/Flaura-dev/flaura-dev.com
 
 ## Référence visuelle
 
