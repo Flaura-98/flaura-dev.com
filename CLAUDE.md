@@ -77,3 +77,7 @@ Tout ce qui est entre crochets dans la maquette reste à fournir : tarifs, adres
 ## SEO / accessibilité
 
 Balises sémantiques, un seul `h1`, métadonnées et Open Graph, données structurées (LocalBusiness / Person), textes alternatifs sur les images, contrastes AA, navigation au clavier, cibles tactiles d'au moins 44 px.
+
+Données structurées de l'accueil : un seul graphe JSON-LD, généré par `lib/structured-data.ts` (entreprise `ProfessionalService`, `OfferCatalog`, `FAQPage`) depuis `content/site.ts`, `content/offers.ts` et `content/faq.ts`, et affiché par le composant `JsonLd`. Les sections n'écrivent pas de JSON-LD elles-mêmes.
+
+Typographie des textes : apostrophes ’ et espaces insécables devant « ? », « : », « % », « € » et « HT », et entre un nombre et son unité.
